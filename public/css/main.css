@@ -1,0 +1,131 @@
+@import './fonts-loader.css';
+
+body {
+    font-family: IRANSans, serif !important;
+    color: #63565d;
+}
+
+.table {
+    color: #63565d;
+}
+
+select.form-control option {
+    font-family: IRANSans, serif !important;
+}
+
+select, option {
+    font-family: IRANSans, serif !important;
+}
+
+.table .thead-dark th {
+    background-color: #463940;
+}
+
+#login-side-bg {
+    background: url(./images/Login-BG-Nav.jpg) no-repeat bottom right;
+    background-size: cover;
+}
+
+.btn.btn-dark {
+    background-color: #463940;
+}
+
+.btn.btn-outline-dark {
+    border-color: #ccc;
+    color: #828282;
+}
+
+.btn.btn-outline-dark:hover {
+    background: initial;
+    border-color: rgb(160, 160, 160);
+    color: #4e4e4e;
+}
+
+.fa {
+    color: #666;
+}
+
+.form-group .fa {
+    font-size: 15px;
+}
+
+#dashboard-navbar .navbar-brand {
+    padding: 3px 10px;
+    border-radius: 4px ;
+}
+
+#dashboard-navbar {
+    background-image: url(./images/Login-BG-Nav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 140px;
+    direction: rtl;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+    align-items: initial;
+
+}
+
+#navbarNav {
+    align-items: initial;
+}
+
+.main-content {
+    margin-top: -50px;
+    z-index: 9999;
+    min-height: 650px;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.05);
+    background-color: #fdfdfd !important;
+    padding: 30px 40px;
+}
+
+.custom-row-color tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.form-input-hint {
+    color: rgb(190, 190, 190);
+}
+
+.form-control:disabled.normal, .form-control[readonly].normal {
+    background-color: #fff;
+    opacity: 1;
+}
+
+.tab-nav-link, #myTab {
+    color: #63565d;
+}
+
+.public-scores-table td {
+    width: 18%;
+}
+
+.public-scores-table td:first-child {
+    width: 10%;
+}
+
+.icon-table {
+    font-size: 18px;
+    cursor: pointer;
+    vertical-align: middle;
+    color: #555;
+}
+
+.icon-column {
+    text-align: center;
+}
+
+.icon-table:hover {
+    color: rgb(0, 0, 104);
+}
+
+.icon-table.fa-trash:hover {
+    color: rgb(203, 0, 0);
+}
+
+.navbar .container {
+    align-items: initial;
+}
