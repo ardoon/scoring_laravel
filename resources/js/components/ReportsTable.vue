@@ -281,7 +281,7 @@ export default {
                 generalScores: false,
                 paymentsScores: false,
                 totalScores: true,
-                proportion: true
+                proportion: false
             },
             filterKey: "areaMeters",
             filterValue: 0,
